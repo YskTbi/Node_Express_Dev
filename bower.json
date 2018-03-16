@@ -1,0 +1,21 @@
+{
+  "name": "myapp",
+  "description": "sample",
+  "main": "app.js",
+  "authors": [
+    "ysktbi"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2",
+    "bootstrap": "^3.3.7"
+  }
+}

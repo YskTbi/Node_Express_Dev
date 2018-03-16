@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= title %></title>
+  </head>
+  <body>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">test window</a>
+              </div>
+              <div id="navbar" class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav">
+                      <li class="active"><a href="#">Home</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      <div class="container">
+          <div class="starter-template">
+              <h1>Access Point</h1>
+              <p class="lead"></p>
+              <div id="chart"></div>
+              <div id="bar"></div>
+              <p><%= message %></p>
+          </div>
+      </div>
+      <img src="/public/img/megane.png">
+    <link rel="stylesheet" href="/public/third_party/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="/public/css/index.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.21/c3.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.21/c3.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/public/third_party/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/public/third_party/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/public/js/c3.js"></script>
+    <script type="text/javascript" src="/public/js/index.js"></script>
+  </body>
+</html>
